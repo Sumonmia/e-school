@@ -8,6 +8,29 @@
     .logo{
         width: 180px;
     }
+    /* banner start */
+    .banner{
+        padding-bottom: 60px;
+    }
+    .b_img {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .b_h1{
+        padding: 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .b_p2{
+        padding: 0;
+        line-height: 30px;
+    }
+    .btn_link{
+        margin: 15px auto 0;
+    }
 }
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -15,20 +38,55 @@
    header{
     padding: 5px 0;;
    }
-   .menu ul li a{
-    margin-bottom: 10px;
-    padding: 0 15px;
-    
-}
+    .menu ul li a{
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+    /* banner start */
+    .b_img {
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .b_h1{
+        padding: 0 40px 0;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .b_p2{
+        padding: 0 30px 0;
+        line-height: 30px;
+    }
+    .btn_link{
+        margin: 15px auto 0;
+    }
 }
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px){
    /* header start */
-   .menu ul li a{
-    margin-bottom: 10px;
-    padding: 0 15px;
-    
-}
+    .menu ul li a{
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+    /* banner start */
+    .b_img {
+        padding: 0 100px;
+        margin-bottom: 30px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .b_h1{
+        padding: 0 90px 0;
+    }
+    .b_p2{
+        padding: 0 70px 0;
+    }
+    .btn_link{
+        margin: 15px auto 0;
+    }
  }
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -39,5 +97,11 @@
 }
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px){
-    
+    /* banner start */
+    .b_h1{
+        padding-right: 100px;
+    }
+    .b_p2{
+        padding-right: 90px;
+    }
 }

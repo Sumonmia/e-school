@@ -30,10 +30,15 @@ header{
     background-color: #21B573;
     border-radius: 33px;
     color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn_sign{
     margin-left: 15px;
-    padding: 12px 28px;
+    /* padding: 12px 28px; */
+    width: 105px;
+    height: 45px;
 }
 .btn_comn:hover{
     background-color: #FD511A;
@@ -41,5 +46,37 @@ header{
 .btn_comn:active{
     background-color: #FD511A !important;
 }
-
 /* header end */
+/* banner start */
+.banner{
+    background-color: #F0FFF0;
+    padding-bottom: 65px;
+}
+.b_text{}
+.b_p1{
+    color: #FD511A;
+}
+.b_h1{
+    margin: 10px 0 20px;
+    padding-right: 0 35px 0 0;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b_h1 span{
+    color: #21B573;
+}
+.b_p2{
+    padding-right: 0 50px 0 0;
+    line-height: 36px;
+}
+.btn_link{
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+}
+.b_img{}
+.b_img img{}
+
+/* banner end */
