@@ -31,6 +31,38 @@
     .btn_link{
         margin: 15px auto 0;
     }
+        /* feature start */
+        .c_padd {
+            padding-bottom: 60px;
+        }
+        .s_feature {
+            margin-top: 24px;
+        }
+        .s_img {
+            width: 60px;
+            height: 70px;
+        }
+        /* course start */
+        .c_h1 {
+            font-size: 25px;
+        }
+        .c_item {
+            margin: 30px 0 0;
+            padding: 10px 10px 15px;
+        }
+        .c_h2{
+            font-size: 20px;
+        }
+    /* testimony start*/
+    .t_item{
+        margin-top: 30px;
+    }
+    .t_img{
+        padding: 0 60px 20px;
+    }
+    .t_text{
+        text-align: center;
+    }
 }
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -62,6 +94,31 @@
     .btn_link{
         margin: 15px auto 0;
     }
+    /* feature start */
+    .c_padd {
+        padding-bottom: 60px;
+    }
+    .s_feature {
+        margin-top: 24px;
+    }
+    /* course start */
+    .c_h1 {
+        font-size: 25px;
+    }
+    .c_item {
+        margin: 30px 60px 0;
+        padding: 20px 15px 25px;
+    }
+    /* testimony start*/
+    .t_item{
+        margin-top: 30px;
+    }
+    .t_img{
+        padding: 0 120px 20px;
+    }
+    .t_text{
+        text-align: center;
+    }
 }
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px){
@@ -87,9 +144,31 @@
     .btn_link{
         margin: 15px auto 0;
     }
+    /* feature start */
+    .c_padd {
+        padding-bottom: 80px;
+    }
+    .s_feature {
+        margin-top: 24px;
+    }
+    /* course start */
+    .c_item {
+        margin: 40px 100px 0;
+    }
+    /* testimony start */
+    .t_item{
+        margin-top: 65px;
+    }
  }
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px){
+    /* course start */
+    .cf_left ul li img, .cf_right ul li img{
+        width: 20px;
+    }
+    .cf_left ul li span, .cf_right ul li span{
+        font-weight: 400;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px){
@@ -103,5 +182,9 @@
     }
     .b_p2{
         padding-right: 90px;
+    }
+    /* feature start */
+    .s_feature {
+        padding: 65px 0 60px;
     }
 }
